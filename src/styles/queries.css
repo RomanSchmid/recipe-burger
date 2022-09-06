@@ -1,6 +1,6 @@
 @media (min-width: 769px) {
     h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     h2 {
@@ -14,17 +14,12 @@
     .estimate ul {
         display: flex;
         justify-content: center;
-        gap: 25px;
+        gap: 90px;
         list-style-type: none;
     }
     
     .estimate ul li{
         text-decoration: none;
-    }
-    
-    .estimate ul li+li::before {
-        content: "|";
-        padding-right: 25px;
     }
 
     .estimate ul li span{
@@ -39,5 +34,10 @@
 
     .burger-layers-img img {
         display: block;
+    }
+
+    section.final-info {
+        flex-direction: row;
+        gap: 60px;
     }
 }
