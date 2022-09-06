@@ -10,6 +10,13 @@ a {
     color: black;
 }
 
+.dividing-line {
+    height: 1px;
+    width: 90%;
+    background-color: black;
+    opacity: 0.2;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -17,9 +24,9 @@ body {
 #page-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 90px;
+    gap: 70px;
     margin: 0 auto;
-    padding: 40px 15px;
+    padding: 40px 15px 120px 15px;
     max-width: 1000px;
 }
 
@@ -63,8 +70,7 @@ p.author-credit {
 }
 
 .burger-layers-img {
-    margin-left: 10%;
-    width: 270px;
+    width: 240px;
 }
 
 .burger-layers-img img {
@@ -74,9 +80,13 @@ p.author-credit {
 .steps {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 35px;
     margin-top: 20px;
     text-align: justify;
+}
+
+.step p {
+    padding-top: 5px;
 }
 
 .step::before {

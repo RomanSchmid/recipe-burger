@@ -3,6 +3,14 @@
         font-size: 3rem;
     }
 
+    h2 {
+        font-size: 2rem;
+    }
+
+    .estimate {
+        font-size: 1.1rem;
+    }
+
     .estimate ul {
         display: flex;
         justify-content: center;
@@ -25,6 +33,7 @@
 
     section.prep-info {
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
 
