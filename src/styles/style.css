@@ -17,9 +17,9 @@ body {
 #page-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 90px;
     margin: 0 auto;
-    padding: 30px 15px;
+    padding: 40px 15px;
     max-width: 1000px;
 }
 
@@ -39,8 +39,8 @@ p.author-credit {
     opacity: 0.9;
 }
 
-#burger-img {;
-    padding: 20px 0;
+#burger-img {
+    margin-top: 20px;
 }
 
 .estimate ul {
@@ -49,7 +49,6 @@ p.author-credit {
     gap: 15px;
     list-style-type: none;
     text-align: center;
-    margin-top: 30px;
 }
 
 .estimate ul li span{
@@ -57,15 +56,19 @@ p.author-credit {
     width: 100%;
 }
 
-section.prep-info {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
 .ingredients ul {
     margin-top: 20px;
     padding-left: 20px;
+    line-height: 2.5rem;
+}
+
+.burger-layers-img {
+    margin-left: 10%;
+    width: 270px;
+}
+
+.burger-layers-img img {
+    display: none;
 }
 
 .steps {
@@ -81,10 +84,3 @@ section.prep-info {
     float: left;
     padding-right: 8px;
 }
-
-/* aside {
-    position: absolute;
-    right: 320px;
-    top: 1000px;
-} */
-

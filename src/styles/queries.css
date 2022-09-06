@@ -22,4 +22,13 @@
     .estimate ul li span{
         display: inline;
     }
+
+    section.prep-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .burger-layers-img img {
+        display: block;
+    }
 }
