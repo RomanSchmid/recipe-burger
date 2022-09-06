@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1000px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p.about-recipe {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+p.author-credit {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+#burger-img {;
+    padding: 20px 0;
+}
+
+.estimate ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.estimate ul li span{
+    display: inline-block;
+    width: 100%;
+}
+
+section.prep-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ingredients ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.step::before {
+    content: "►";
+    float: left;
+    padding-right: 8px;
+}
+
+/* aside {
+    position: absolute;
+    right: 320px;
+    top: 1000px;
+} */
+

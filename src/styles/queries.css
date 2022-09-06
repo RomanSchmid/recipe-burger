@@ -1,0 +1,25 @@
+@media (min-width: 769px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .estimate ul {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        list-style-type: none;
+    }
+    
+    .estimate ul li{
+        text-decoration: none;
+    }
+    
+    .estimate ul li+li::before {
+        content: "|";
+        padding-right: 25px;
+    }
+
+    .estimate ul li span{
+        display: inline;
+    }
+}
